@@ -1,0 +1,137 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: px;
+    
+}
+
+.container {
+ align-items: center;
+ color: #fff;
+ display: flex;
+ width: 100vw;
+ height: 100vh;
+ background: hsl(233, 47%, 7%);
+ justify-content: center;
+}
+
+.card {
+    background: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 260px;
+    grid-template-rows: repeat(3, 200px);
+    max-height: 85vh;
+    min-width: 270px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    //padding: 30px;
+}
+
+.img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header {
+    background: hsl(277, 64%, 61%);
+    background-image:;
+    max-width: ;
+    height: ;
+    padding: 0;
+}
+
+.content, .footer {
+    padding: 15px;
+}
+
+.footer {
+    display: space-between;
+}
+.value {
+    margin: 5px;
+}
+
+em {
+    color:hsl(277, 64%, 61%);
+    font-style: normal;
+}
+
+h1, h2 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+
+#message {
+    padding: 10px 25px;
+    padding-top: ;
+}
+
+@media screen and (min-width: 1440px) {
+    .card {
+        grid-template-rows: repeat(2, 140px);
+        grid-template-columns: repeat(2, 50fr);
+        max-height: 300px;
+        max-width: 700px;
+        text-align: initial;
+        padding: 30px;
+    }
+
+    .header {
+        background: image(images/image-header-desktop.jpg)
+        display: flex;
+        grid-column: 2 / span 2;
+    }
+
+    .content {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    h1 {
+       padding-right: 60px;
+    }
+
+    #message {
+        padding: 10px 65px 15px 0;
+        grid-row: 1;
+        grid-column: 1;
+        word-spacing: 0.5rem;
+    }
+
+    .footer{
+        display: flex;
+        min-width: 350px;
+        padding-right: 90px;
+        text-align: initial;
+        align-items: ;
+    }
+
+    .value {
+        margin: auto;
+        text-align: initial;
+        margin-left: 0;
+    }
+
+    .content, .footer {
+        padding-right: 50px;
+    }
+
+    .h2 {
+        font-size: 1rem;
+    }
+
+    .p:last-child {
+      font-size: 1rem;
+    }
+    
+}
